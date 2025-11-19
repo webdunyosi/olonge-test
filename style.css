@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Montserrat" , sans-serif;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+/* Topbar */
+.topbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  padding: 0px 10%;
+  height: 70px;
+}
+.topbar img{
+  height: 100%;
+}
+.topbar.icon{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.navbar{
+  display: flex;
+  gap: 50px; 
+  font-size: 16px;
+  font-weight: 600;
+}
+.navbar a:hover{
+  color: orangered;
+  background-color:wheat;
+}
+/* Header */
+.header{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: 100vh;
+background-size: cover;
+background-image: url(images/Rectangle\ 1.png);
+background-position: center;
+color: white;
+padding: 0 20%;
+}
+.header2{
+  background-image: url(images/header2.jpg);
+}
+.header h1{
+  font-size: 58px;
+  font-weight: 700;
+  margin: 17px;
+}
+.header p{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.header-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.header-btn a{
+  padding: 16px 58px;
+  border-radius: 100px;
+  border: 2px solid wheat;
+  font-size: 24px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.header-btn a:hover{
+  background-color: orangered;
+  color: white;
+  border: 2px solid orangered;
+}
+/* App */
+.app{
+  text-align: center;
+  position: relative;
+  height: 500px;
+
+}
+.app img{
+width: 30%;
+position: absolute;
+top: -150px;
+left: 50%;
+transform: translateX(-60%);
+}
+.app h2{
+  padding-top: 400px;
+  margin-bottom: 100px;
+}
+/* Create */
+.create{
+ padding: 30px 10%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 10%;
+}
+.create img{
+  width: 30%;
+}
+.create.create-text{
+  width: 50%;
+}
+.create-text h4{
+  color: #FA4A0C;
+  font-size: 24px;
+  margin-bottom: 7px;
+}
+.create-text h3{
+  font-size: 30px;
+  color: #252B42;
+  margin-bottom: 17px;
+}
+.create-text p {
+  font-size: 24px;
+  color: #252B42;
+}
+
+
+
+
